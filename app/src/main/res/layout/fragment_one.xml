@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -10,111 +14,117 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="location.in.myapplication1.FragmentOne"
     android:orientation="vertical"
-   >
+    android:background="#000000">
 
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#C62828">
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
+        android:textColor="#EEEEEE"
+        android:text="Cut or Scrape"
+        android:textSize="20dp"
         android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-    <TextView
+        />
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="asdadada"
-        android:id="@+id/text"/>
+        android:src="@drawable/cutsandwounds"
+        />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
-
+        android:textColor="#EEEEEE"
+        android:textSize="18dp"
+        android:text="Act Fast:\n If there's bleeding, first press firmly over the site with a clean cloth until it stops, anywhere from three to 15 minutes. Clean under lukewarm running water and gently pat dry. When a wound is dirty or was caused by an animal scratch, rinse it with water and gently lather with soap. If the skin is broken, apply a thin layer of an over-the-counter antibiotic ointment (like Neosporin or Bacitracin), then cover with a bandage or gauze and adhesive tape. If you can't control the bleeding after several attempts with direct pressure, call your pediatrician or 911, or head to an E.R. If a large piece of skin has been removed, wrap it in a clean, moist cloth and place it in a bag over ice -- a doctor may be able to reattach it. An animal bite that has caused a deep cut should be seen by a doctor."/>
 
 </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#EEEEEE"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#BF360C"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#EEEEEE"
+            android:textStyle="bold"
+            android:text="Burn"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#EEEEEE"
+            android:textSize="18dp"
+            android:text="Act Fast: \nImmediately hold under cool running water or apply a cold, wet towel until the pain subsides. Cover any small blisters with a loose bandage or gauze and tape; call a doctor as soon as possible if burns are on the face, hands, or genitals, or if they're larger than 1/4 inch anywhere on the body. If the burn looks deep -- the skin may be white or brown and dry -- go to the E.R. For a burn covering a tenth of the body or more, don't use cold compresses; call 911 and cover the child with a clean sheet or a blanket to prevent hypothermia until help arrives.
+
+Follow-Up Care:\n Don't pop any blisters yourself. If the skin breaks, apply an anti-biotic cream and cover the area with a bandage or gauze and tape until it's healed. Watch for any redness, swelling, tenderness, or discharge -- all signs of infection."/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EEEEEE"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#BF360C">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#EEEEEE"
+            android:text="Nosebleed"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#EEEEEE"
+            android:textSize="18dp"
+            android:text="Act Fast:\n Have your child sit upright, but don't tilt her head back. Loosen any tight clothing around her neck. Pinch the lower end of her nose close to the nostrils and have her lean forward while you apply pressure continuously for five to ten minutes. Don't release and check the nose; it could prolong the bleeding.
+
+Follow-Up Care: If the nosebleed is the result of a trauma, reduce swelling by holding an ice pack against the bridge of the nose after the bleeding slows down. If it persists after ten minutes or returns later, call your doctor or go to the E.R. to check for a break."/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EEEEEE"
+        android:text=""/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#BF360C">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#EEEEEE"
+            android:text="Eye Trauma"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#EEEEEE"
+            android:text="Act Fast: /n When your child has severe pain, constant tearing, light sensitivity, or blurry vision after being poked or hit in the eye, hold a cool, wet cloth over the area and head to the E.R. He may have a scratch on the eye's surface, which is treated with prescription drops or ointment and usually heals within 48 hours. If a chemical has been splashed in his eye, hold the lid open and flush with lukewarm water and call Poison Control (800-222-1222)."/>
+
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

@@ -26,9 +26,6 @@ public class FragmentOne extends Fragment {
                              Bundle savedInstanceState) {
             // Inflate the layout for this fragment
             rootview = inflater.inflate(R.layout.fragment_one, container, false);
-            t = (TextView) rootview.findViewById(R.id.text);
-            t.setText("changed");
-
             return rootview;
         }
 
