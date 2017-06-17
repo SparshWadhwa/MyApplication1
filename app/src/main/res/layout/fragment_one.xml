@@ -31,7 +31,7 @@
         />
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="195dp"
         android:src="@drawable/cutsandwounds"
         />
     <TextView
@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#BF360C"
+        android:background="#C62828"
         >
         <TextView
             android:layout_width="match_parent"
@@ -62,6 +62,7 @@
             android:textStyle="bold"
             android:text="Burn"
             android:textSize="30dp"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -81,7 +82,7 @@ Follow-Up Care:\n Don't pop any blisters yourself. If the skin breaks, apply an 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#BF360C">
+        android:background="#C62828">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -110,7 +111,7 @@ Follow-Up Care: If the nosebleed is the result of a trauma, reduce swelling by h
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#BF360C">
+        android:background="#C62828">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -122,9 +123,30 @@ Follow-Up Care: If the nosebleed is the result of a trauma, reduce swelling by h
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#EEEEEE"
-            android:text="Act Fast: /n When your child has severe pain, constant tearing, light sensitivity, or blurry vision after being poked or hit in the eye, hold a cool, wet cloth over the area and head to the E.R. He may have a scratch on the eye's surface, which is treated with prescription drops or ointment and usually heals within 48 hours. If a chemical has been splashed in his eye, hold the lid open and flush with lukewarm water and call Poison Control (800-222-1222)."/>
+            android:textSize="18dp"
+            android:text="Act Fast: /n When your child has severe pain, constant tearing, light sensitivity, or blurry vision after being poked or hit in the eye, hold a cool, wet cloth over the area and head to the E.R. He may have a scratch on the eye's surface, which is treated with prescription drops or ointment and usually heals within 48 hours. If a chemical has been splashed in his eye, hold the lid open and flush with lukewarm water and call Poison Control (800-222-1222).\n\n\n"/>
 
     </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EEEEEE"
+        android:text=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EEEEEE"
+        android:text=""/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EEEEEE"
+        android:text=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EEEEEE"
+        android:text=""/>
 </LinearLayout>
     </ScrollView>
